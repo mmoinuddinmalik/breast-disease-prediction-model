@@ -1,0 +1,11 @@
+{
+    "name": "breast-disease-prediction-model",
+    "functions": {
+      "app.py": {
+        "runtime": "python3.8",
+        "memory": 256,
+        "maxDuration": 10
+      }
+    }
+  }
+  
