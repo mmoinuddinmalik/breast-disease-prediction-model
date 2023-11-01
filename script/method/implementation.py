@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from scikit-learn.ensemble import RandomForestClassifier
-from scikit-learn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 from time import time
 
 def random_forest_train():
@@ -14,18 +14,18 @@ def random_forest_train():
 	y = dataset.iloc[:, 1].values
 
 	# Encoding categorical data
-	from scikit-learn.preprocessing import LabelEncoder, OneHotEncoder
+	from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 	labelencoder_X_1 = LabelEncoder()
 	y = labelencoder_X_1.fit_transform(y)
 
 	# Splitting the dataset into the Training set and Test set
 	global X_test, y_test
-	from scikit-learn.model_selection import train_test_split
+	from sklearn.model_selection import train_test_split
 	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 
 	# Feature Scaling
-	from scikit-learn.preprocessing import StandardScaler
+	from sklearn.preprocessing import StandardScaler
 	global sc
 	sc = StandardScaler()
 	X_train = sc.fit_transform(X_train)
