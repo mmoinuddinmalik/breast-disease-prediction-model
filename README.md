@@ -30,8 +30,8 @@ Breast cancer is one of the most common cancers among women, and early detection
    - Clone the repository:
 
      ```bash
-     git clone <repository-url>
-     cd fastapi-breast-disease-predictor
+     git clone https://github.com/mmoinuddinmalik/breast-disease-prediction-model.git
+     cd breast-disease-prediction-model
      ```
 
    - Install Python dependencies:

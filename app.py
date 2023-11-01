@@ -1,11 +1,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from script.method.implementation import random_forest_test, random_forest_train, random_forest_predict
-from scikit-learn.preprocessing import StandardScaler
 import numpy as np
 import pandas as pd
 from script.model.random_forest import accuracy
-from scikit-learn.metrics import accuracy_score
 from time import time
 
 app = FastAPI()
