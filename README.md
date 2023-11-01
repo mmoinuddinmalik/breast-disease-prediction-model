@@ -104,7 +104,7 @@ Breast cancer is one of the most common cancers among women, and early detection
     ```json
     {
         "output": "Malignant",
-        "accuracy": 0.92,
+        "accuracy": 0.95,
         "time": 0.055
     }
     ```
