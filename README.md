@@ -50,7 +50,7 @@ Breast cancer is one of the most common cancers among women, and early detection
 
    The API will be accessible at http://0.0.0.0:8000.
 
-3. **Making Predictions**
+## Making Predictions
 
     You can make predictions by sending a POST request to the /breastDiseasePredict endpoint. The API expects input data related to breast cancer features.
 
@@ -91,7 +91,7 @@ Breast cancer is one of the most common cancers among women, and early detection
     }
    ```
    
-4. **Sample Example with Postman**
+## Sample Example with Postman
     
     Here's a sample example of making a prediction using Postman:
 
